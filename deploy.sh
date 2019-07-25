@@ -1,9 +1,9 @@
 # Name of the folder containing our grav installation under localhost
-SITE_NAME="grav"
+SITE_NAME="portfolio"
 SITE_HOST="localhost/$SITE_NAME"
 # First we must test that the host (localhost) is reachable
 echo "Testing localhost ..."
-if  ! wget -q --spider localhost/grav ; then
+if  ! wget -q --spider localhost/portfolio ; then
     echo "HOST localhost/grav could not be reached, did you forget to start local server ?"
     exit 1
 fi
@@ -24,7 +24,7 @@ rm -f index.html
 
 # Move new files to root
 mv localhost/* . && rm -rf localhost
-mv grav/* . && rm -rf grav
+mv $SITE_NAME/* . && rm -rf $SITE_NAME
 
 # Rename index.html to index.html
 mv index.html index.html
@@ -44,6 +44,7 @@ echo "Post processing completed"
 # Commit changes and push
 echo "Deploying to github pages"
 git add -A
-git commit -m "Update"
+read -p 'Enter commit message: ' message
+git commit -m "$message"
 git push origin master
 echo "Deployment to github pages completed!"
