@@ -5,12 +5,12 @@
 "dataUrl": "WebGL1.0.data.unityweb",
 "wasmCodeUrl": "WebGL1.0.wasm.code.unityweb",
 "wasmFrameworkUrl": "WebGL1.0.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 1.0"],
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Light",
 "backgroundColor": "#FFFFFF",
 "cacheControl": {"default": "must-revalidate"},
-"developmentBuild": false,
+"developmentBuild": true,
 "multithreading": false,
 "unityVersion": "2019.3.5f1"
 }
