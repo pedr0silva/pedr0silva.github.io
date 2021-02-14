@@ -1,5 +1,5 @@
 ---
-title: Consuming the unidentified potions
+title: Consuming unidentified potions
 ---
 
 Hey!
@@ -38,6 +38,7 @@ Note to self.\ Stop drinking unidentified potions. Study the fundamentals and bu
 
 * Blonded (2017) Frank Ocean - Seigfried. Available at: https://www.youtube.com/watch?v=RWgpBlz16-s (Accessed: 14 February 2021).
 
+<br />
 <label class="imgLabel">.</label>
 <label class="imgLabel">.</label>
 <label class="imgLabel">.</label>
