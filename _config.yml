@@ -15,7 +15,7 @@ defaults:
     values:
       image: true
 
-theme: jekyll-theme-console
+remote_theme: pedr0silva/site-theme
 
 plugins:
   - jekyll-feed
