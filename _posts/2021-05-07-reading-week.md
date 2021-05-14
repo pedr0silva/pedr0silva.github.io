@@ -5,7 +5,7 @@ tags: week6 books illustration
 ---
 
 <image>
-    <img src="{{ 'assets/img/bmfh_01.jpg' | relative_url }}" alt="bmfh_01" class="images100"/>
+    <img src="{{ 'assets/img/bmfh_01.png' | relative_url }}" alt="bmfh_01" class="images100"/>
     <label class="imgLabel">Fig 1. Mackesy's work, n.d, in The Boy, the Mole, the Fox and the Horse (2020)</label>
 </image><br />
 
@@ -16,7 +16,7 @@ The book tells a journey of a Boy and three animal companions, in a universe whe
 I guess some of my insecurities are perfectly aligned with the Fox itself, which made its presence quite special to me.
 
 <image>
-    <img src="{{ 'assets/img/bmfh_02.jpg' | relative_url }}" alt="bmfh_02" class="images100"/>
+    <img src="{{ 'assets/img/bmfh_02.png' | relative_url }}" alt="bmfh_02" class="images100"/>
     <label class="imgLabel">Fig 2. Mackesy's work, n.d, in The Boy, the Mole, the Fox and the Horse (2020)</label>
 </image><br />
 
